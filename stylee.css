@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 67px;
+    background-color: #9a0756;
+
+}
+
+.header .inner {
+    text-align: center;
+}
+
+.header .inner .inner1 {
+    display: inline;
+    margin-top: -5px;
+}
+
+.header .inner img {
+    height: 56px;
+    width: 120px;
+    margin-top: -1px;
+}
+
+.header .inner button {
+    height: 35px;
+    width: 70px;
+}
+
+.header .inner button:hover {
+    background-color: purple;
+    width: 75px;
+    height: 40px;
+}
+
+/* navbar */
+.navbar {
+    background-color: lightpink;
+    height: 67px;
+    width: 100%;
+}
+
+.navbar .div {
+    display: inline;
+    margin-left: 160px;
+    margin-right: 400px;
+}
+
+.navbar .navbarinner {
+    display: inline;
+    margin-left: 150;
+    padding-right: 120px;
+
+}
+
+.navbar .navbarinner .div {
+    padding-left: 130px;
+    display: inline;
+}
+
+.navbar .navbarinner1 {
+    height: 37px;
+    width: 70px;
+    margin-top: 0px;
+    margin-right: 70px;
+
+}
+
+.navbar .navbarinner button:hover {
+    background-color: #07789a;
+    height: 40px;
+    width: 72px;
+}
+
+/* foodpanda */
+.maindiv {
+    background-color: gainsboro;
+    height: 700px;
+    width: 57788;
+}
+
+.maindiv {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.maindiv .search input {
+    height: 40px;
+    width: 500px;
+    border: 4px solid rgb(57, 26, 53);
+}
+
+
+.maindiv .foodpanda img {
+    height: 600px;
+    width: 550px;
+}
+
+.maindiv .search h1 {
+    font-size: 45px;
+}
+
+.maindiv .search button {
+    background-color: crimson;
+    height: 35px;
+    width: 80px;
+}
+
+.maindiv .search button :hover {
+    height: 40;
+    width: 90;
+}
+
+/*  */
+.per {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.person {
+    margin-top: 40px;
+    background-image: url("./imgss/fireerson.webp");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+
+.write {
+    height: 250px;
+    width: 350px;
+    background-color: white;
+    margin-top: -150px;
+    margin-left: 100px;
+    /* z-index: 1; */
+    box-shadow: 0px 10px 20px 0px grey;
+
+}
+
+.write .start {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+}
+
+/* cities */
+.cities {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* row1 */
+.cities .city1 {
+    margin-top: 30px;
+    display: flex;
+}
+
+.cities .city1 .four {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city1 .button1 {
+    margin-top: -50px;
+
+}
+
+.city1 .button2 {
+    margin-top: -50px;
+}
+
+.city1 .button3 {
+    margin-top: -50px;
+}
+
+.city1 .button4 {
+    margin-top: -50px;
+}
+
+.cities .city2 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city2 .five {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city2 .button5 {
+    margin-top: -50px;
+
+}
+
+.city2 .button6 {
+    margin-top: -50px;
+}
+
+.city2 .button7 {
+    margin-top: -50px;
+
+}
+
+.city2 .button8 {
+    margin-top: -50px;
+
+}
+
+/* row3 */
+.cities .city3 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city3 .six {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city3 .button9 {
+    margin-top: -50px;
+
+}
+
+.city3 .button10 {
+    margin-top: -50px;
+}
+
+.city3 .button11 {
+    margin-top: -50px;
+}
+
+.city3 .button12 {
+    margin-top: -50px;
+}
+
+/* ROW4 */
+.cities .city4 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city4 .seven {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city4 .button13 {
+    margin-top: -50px;
+
+}
+
+.city4 .button14 {
+    margin-top: -50px;
+}
+
+.city4 .button15 {
+    margin-top: -50px;
+}
+
+.city4 .button16 {
+    margin-top: -50px;
+}
+
+/* ROW5 */
+.cities .city5 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city5 .eight {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city5 .button17 {
+    margin-top: -50px;
+
+}
+
+.city5 .button18 {
+    margin-top: -50px;
+}
+
+.city5 .button19 {
+    margin-top: -50px;
+}
+
+.city5 .button20 {
+    margin-top: -50px;
+}
+
+/* ROW6 */
+.cities .city6 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city6 .nine {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city6 .button21 {
+    margin-top: -50px;
+
+}
+
+.city6 .button22 {
+    margin-top: -50px;
+}
+
+.city6 .button23 {
+    margin-top: -50px;
+}
+
+.city6 .button24 {
+    margin-top: -50px;
+}
+
+/* ROW7 */
+.cities .city7 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city7 .ten {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city7 .button25 {
+    margin-top: -50px;
+
+}
+
+.city7 .button26 {
+    margin-top: -50px;
+}
+
+.city7 .button27 {
+    margin-top: -50px;
+}
+
+.city7 .button28 {
+    margin-top: -50px;
+}
+
+/* ROW8 */
+.cities .city8 {
+    margin-top: 30px;
+
+    display: flex;
+}
+
+.cities .city8 .eleven {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.city8 .button29 {
+    margin-top: -50px;
+
+}
+
+.city8 .button30 {
+    margin-top: -50px;
+}
+
+/* office */
+.office {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.lunch {
+    margin-top: 40px;
+    background-image: url("./imgss/office.webp");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+
+}
+
+.break {
+    height: 150px;
+    width: 450px;
+    background-color: white;
+    margin-top: -90px;
+    margin-left: 100px;
+    box-shadow: 0px 10px 20px 0px grey;
+
+}
+
+.break .start {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+}
+
+.paragraph {
+    margin-top: 50px;
+}
+
+.country ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin: 40px;
+
+}
+
+.footer {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.last {
+    display: flex;
+}
+
+.last .stpic {
+    margin-top: 70px;
+}
